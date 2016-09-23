@@ -1,0 +1,11 @@
+{
+  "name": "ollie-node-express",
+  "version": "1.0.0",
+  "description": "Ollie Generator Node-Express Template",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "samuel.overloop@icapps.com",
+  "license": "MIT"
+}
