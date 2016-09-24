@@ -7,5 +7,9 @@
     "test": "test"
   },
   "author": "samuel.overloop@icapps.com",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0",
+    "morgan": "^1.7.0"
+  }
 }
