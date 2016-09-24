@@ -16,18 +16,30 @@
 * Seeds directory
 
 ## TODO
-* 'docs' directory
+
+### 'docs' directory
+
   * serve/build/test/deploy process
+
   * special notes
+
   * special processes
+
   * mocked data; e.g. debug.loginUser() via console should be documented
+
   * testing (setup/running/continuous integration)
+
   * database migration scripts
+
   * reference to deeper documentation in /docs directory
-* all api endpoints should be documented through Swagger
-* all methods should have a JSdoc block: http://usejsdoc.org/
-* contract testing for api
-* Security
+
+### all api endpoints should be documented through Swagger
+
+### all methods should have a JSdoc block: http://usejsdoc.org/
+
+### contract testing for api
+
+### Security
   * Security HTTP Headers
     * Strict-Transport-Security enforces secure (HTTP over SSL/TLS) connections to the server
     * X-Frame-Options provides clickjacking protection
@@ -63,5 +75,3 @@
 ### Coding guidelines
 
 ## License
-
-
