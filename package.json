@@ -4,12 +4,32 @@
   "description": "Ollie Generator Node-Express Template",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "start": "NODE_PATH=$NODE_PATH:./lib node server.js",
+    "test": "NODE_PATH=$NODE_PATH:./lib node node_modules/mocha/bin/mocha --sort",
+    "coverage": "node_modules/.bin/istanbul cover _mocha"
   },
   "author": "samuel.overloop@icapps.com",
   "license": "MIT",
   "dependencies": {
+    "dotenv": "^2.0.0",
     "express": "^4.14.0",
     "morgan": "^1.7.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.3.0",
+    "dirty-chai": "^1.2.2",
+    "eslint": "^3.6.0",
+    "eslint-config-airbnb-base": "^7.2.0",
+    "eslint-plugin-import": "^1.16.0",
+    "eslint-plugin-mocha": "^4.5.1",
+    "eslint-plugin-node": "^2.0.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.0.2",
+    "nock": "^8.0.0",
+    "sinon": "^1.17.6",
+    "sinon-chai": "^2.8.0",
+    "supertest": "^2.0.0",
+    "supertest-as-promised": "^4.0.0"
   }
 }
