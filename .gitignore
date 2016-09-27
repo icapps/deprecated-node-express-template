@@ -1,2 +1,5 @@
 config/env/*
 coverage/
+
+.idea
+node_modules
