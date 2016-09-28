@@ -1,5 +1,9 @@
 config/env/*
 coverage/
 
-.idea
+# Npm
+npm-debug.log
 node_modules
+
+# Webstorm
+.idea
