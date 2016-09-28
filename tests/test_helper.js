@@ -8,7 +8,7 @@
 
 'use strict';
 
-require('../config/env');
+require('./../env');
 const chai = require('chai');
 const sinon = require('sinon');
 const chaiAsPromised = require('chai-as-promised');

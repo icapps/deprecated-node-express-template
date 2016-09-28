@@ -11,8 +11,8 @@
 
 const express = require('express');
 const bodyParser = require('body-parser');
-const logger = require('./../config/logger');
-const errorHandler = require('./../lib/errorHandler/index');
+const logger = require('./config/logger');
+const errorHandler = require('./lib/errorHandler/index');
 
 const port = process.env.PORT || 3000;
 
