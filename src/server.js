@@ -1,7 +1,7 @@
-/*
+/**
  * Ollie Node-Express Generator
  * iCapps 2016
- * author @samover
+ * author @[username]
  *
  * server.js
  *
@@ -11,8 +11,8 @@
 
 const express = require('express');
 const bodyParser = require('body-parser');
-const logger = require('./config/logger');
-const errorHandler = require('./lib/errorHandler')
+const logger = require('./../config/logger');
+const errorHandler = require('./../lib/errorHandler/index');
 
 const port = process.env.PORT || 3000;
 
@@ -21,7 +21,7 @@ const app = express();
 app.use(bodyParser.json());
 app.use(logger);
 
-const books = require('./routes/books')
+const books = require('./routes/books');
 
 app.use('/books', books);
 
