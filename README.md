@@ -1,5 +1,38 @@
 # NODE-EXPRESS TEMPLATE PROJECT
 
+## Boilerplate skeleton
+
+* [.npmrc](#.npmrc)
+* [.eslintrc](#.eslintrc)
+* [.editorconfig](#.editorconfig)
+* [.gitignore](#.gitignore)
+* [package.json](#package.json)
+* [/docs](#/docs)
+* [/tests](#/tests)
+* [/src](#/src)
+
+### .npmrc
+Define https://npm.icapps.com as the npm registry. We will use the private npm registry as :
+
+* a caching proxy when [https://npmjs.com](https://npmjs.com) is down
+* a registry for publishing private packages
+
+### .eslintrc
+
+### .editorconfig
+
+### .gitignore
+
+### package.json
+
+### /docs
+
+### /tests
+
+### /src
+
+
+
 ## DONE
 
 * Eslint validates our own guidelines: [https://github.com/icapps/coding-guidelines/tree/master/Web]()
