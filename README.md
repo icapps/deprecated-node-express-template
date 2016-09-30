@@ -50,6 +50,8 @@ Define https://npm.icapps.com as the npm registry. We will use the private npm r
 
 ## TODO
 
+### Docker instances
+
 ### 'docs' directory
 
   * serve/build/test/deploy process
