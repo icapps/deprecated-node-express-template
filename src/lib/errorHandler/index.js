@@ -9,7 +9,7 @@
 'use strict';
 
 
-module.exports = exports = (err, req, res, next) => {
+module.exports = exports = (err, req, res) => {
   console.error(err.stack);
   res.status(500).send({ error: 'Something went wrong!' });
 };

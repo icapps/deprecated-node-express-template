@@ -8,6 +8,6 @@
 
 'use strict';
 
-const morgan = require('morgan')
+const morgan = require('morgan');
 
 module.exports = exports = morgan('combined');

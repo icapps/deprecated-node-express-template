@@ -24,7 +24,13 @@
     "node/no-unsupported-features": ["error", {"version": 4}],
     "import/no-unresolved": ["off"],
     "no-console": ["error", { "allow": ["info", "warn", "error"]  }],
-    "max-len": ["off"]
+    "max-len": ["off"],
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": true,
+      }
+    ]
   },
   "globals": {
     "base": false,
