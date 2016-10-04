@@ -25,6 +25,7 @@
     "import/no-unresolved": ["off"],
     "no-console": ["error", { "allow": ["info", "warn", "error"]  }],
     "max-len": ["off"],
+    "comma-dangle": ["error", "always-multiline"],
     "import/no-extraneous-dependencies": [
       "error",
       {
