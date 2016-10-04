@@ -1,5 +1,6 @@
 config/env/*
 coverage/
+.eslintcache
 
 # Npm
 npm-debug.log
