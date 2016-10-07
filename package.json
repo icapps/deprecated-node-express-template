@@ -1,5 +1,5 @@
 {
-  "name": "ollie-node-express",
+  "name": "OLLIE_PROJECT_NAME",
   "version": "1.0.0",
   "description": "Ollie Generator Node-Express Template",
   "main": "index.js",
