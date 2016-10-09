@@ -31,6 +31,20 @@ Define https://npm.icapps.com as the npm registry. We will use the private npm r
 
 ### /src
 
+## Security
+
+### [Helmet](https://github.com/helmetjs/helmet)
+
+* Strict-Transport-Security enforces secure (HTTP over SSL/TLS) connections to the server
+
+* X-Frame-Options provides clickjacking protection
+
+* X-XSS-Protection enables the Cross-site scripting (XSS) filter built into most recent web browsers
+
+* X-Content-Type-Options prevents browsers from MIME-sniffing a response away from the declared content-type
+
+* Content-Security-Policy prevents a wide range of attacks, including Cross-site scripting and other cross-site injections
+
 
 
 ## DONE
@@ -75,12 +89,6 @@ Define https://npm.icapps.com as the npm registry. We will use the private npm r
 ### contract testing for api
 
 ### Security
-  * Security HTTP Headers
-    * Strict-Transport-Security enforces secure (HTTP over SSL/TLS) connections to the server
-    * X-Frame-Options provides clickjacking protection
-    * X-XSS-Protection enables the Cross-site scripting (XSS) filter built into most recent web browsers
-    * X-Content-Type-Options prevents browsers from MIME-sniffing a response away from the declared content-type
-    * Content-Security-Policy prevents a wide range of attacks, including Cross-site scripting and other cross-site injections
   * Brute Force Protection
   * Cookie Flags The following is a list of the attributes that can be set for each cookie and what they mean:
     * secure - this attribute tells the browser to only send the cookie if the request is being sent over HTTPS.
@@ -104,6 +112,8 @@ Define https://npm.icapps.com as the npm registry. We will use the private npm r
 ## Coverage
 
 ## Dependencies
+
+* [https://github.com/helmetjs/helmet](#helmet)
 
 ## Contributing
 
