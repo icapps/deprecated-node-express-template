@@ -11,6 +11,7 @@
 
 const express = require('express');
 const bodyParser = require('body-parser');
+const helmet = require('./config/helmet');
 const logger = require('./config/logger');
 const errorHandler = require('./lib/errorHandler/index');
 
@@ -18,6 +19,7 @@ const port = process.env.PORT || 3000;
 
 const app = express();
 
+app.use(helmet);
 app.use(bodyParser.json());
 app.use(logger);
 
