@@ -4,18 +4,21 @@
   "description": "Ollie Generator Node-Express Template",
   "main": "index.js",
   "scripts": {
-    "start": "NODE_PATH=$NODE_PATH:./lib node server.js",
+    "start": "NODE_PATH=$NODE_PATH:./lib node index.js",
     "test": "NODE_PATH=$NODE_PATH:./lib node node_modules/mocha/bin/mocha --sort",
     "lint": "./node_modules/.bin/eslint ./ --cache --ignore-pattern .gitignore",
     "coverage": "node_modules/.bin/istanbul cover _mocha"
   },
-  "precommit": ["lint"],
+  "precommit": [
+    "lint"
+  ],
   "author": "samuel.overloop@icapps.com",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.15.2",
     "dotenv": "^2.0.0",
     "express": "^4.14.0",
+    "helmet": "^2.3.0",
     "morgan": "^1.7.0"
   },
   "devDependencies": {
