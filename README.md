@@ -33,6 +33,9 @@ Define https://npm.icapps.com as the npm registry. We will use the private npm r
 
 
 
+## Deployment
+
+To use docker
 
 ## Installation
 
@@ -40,6 +43,11 @@ Define https://npm.icapps.com as the npm registry. We will use the private npm r
 $ git clone git@bitbucket.org:samover/node-express-template.git`
 $ npm install
 ```
+
+## Running
+
+Either `[NODE_ENV=development] npm start`
+Or: `docker-compose up`
 
 ## Testing
 
@@ -59,13 +67,11 @@ $ npm coverage
 
 ## Bucket list
 
-- use docker instances
-
 - swagger setup
 
 - all methods should have a JSdoc block: [http://usejsdoc.org/]()
 
-## Security 
+## Security
 
 As a minimum, [Helmet](https://github.com/helmetjs/helmet) is implemented in this boilerplate. It is recommended to implement further security measures. A good guide is [https://blog.risingstack.com/node-js-security-checklist/]().
 
