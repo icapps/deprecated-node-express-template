@@ -8,8 +8,16 @@
 
 'use strict';
 
-
 module.exports = exports = (err, req, res) => {
-  console.error(err.stack);
-  res.status(500).send({ error: 'Something went wrong!' });
+    if (process.env.NODE_ENV === 'development') {
+        res.status(err.status || 500).send({
+            message: err.message,
+            error: JSON.stringify(err),
+        });
+    } else {
+        res.status(err.status || 500).send({
+            message: err.message,
+            error: {},
+        });
+    }
 };
