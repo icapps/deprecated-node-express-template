@@ -6,7 +6,7 @@
   "scripts": {
     "start": "NODE_PATH=$NODE_PATH:./lib node index.js",
     "test": "NODE_PATH=$NODE_PATH:./lib node node_modules/mocha/bin/mocha --sort",
-    "lint": "./node_modules/.bin/eslint ./ --cache --ignore-pattern .gitignore",
+    "lint": "./node_modules/.bin/eslint ./src --cache --ignore-pattern .gitignore",
     "coverage": "node_modules/.bin/istanbul cover _mocha"
   },
   "precommit": [
@@ -26,7 +26,7 @@
     "chai": "^3.5.0",
     "chai-as-promised": "^5.3.0",
     "dirty-chai": "^1.2.2",
-    "eslint": "^3.6.0",
+    "eslint": "^3.8.0",
     "eslint-config-airbnb-base": "^7.2.0",
     "eslint-plugin-import": "^1.16.0",
     "eslint-plugin-mocha": "^4.5.1",
