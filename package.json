@@ -1,7 +1,7 @@
 {
-  "name": "OLLIE_PROJECT_NAME",
+  "name": "_OLLIE_NAME_",
   "version": "1.0.0",
-  "description": "Ollie Generator Node-Express Template",
+  "description": "_OLLIE_DESCRIPTION_",
   "main": "index.js",
   "scripts": {
     "start": "NODE_PATH=$NODE_PATH:./lib node index.js",
@@ -12,7 +12,7 @@
   "precommit": [
     "lint"
   ],
-  "author": "samuel.overloop@icapps.com",
+  "author": "_OLLIE_AUTHOR_EMAIL_",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.15.2",
